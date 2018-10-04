@@ -29,6 +29,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isAddButton" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Unu-5a-FFT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRP-7e-hUx" customClass="PushButton" customModule="Drawning" customModuleProvider="target">
                                 <rect key="frame" x="135" y="464" width="50" height="50"/>
@@ -42,17 +45,52 @@
                                         <color key="value" red="0.93333333333333335" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fhh-Yr-j3g"/>
+                                </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nlb-EK-2pI" customClass="CounterView" customModule="Drawning" customModuleProvider="target">
+                                <rect key="frame" x="45" y="74" width="230" height="230"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dtf-pq-uH7">
+                                        <rect key="frame" x="104" y="93.5" width="22" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="9dY-Mk-eZi"/>
+                                    <constraint firstItem="Dtf-pq-uH7" firstAttribute="centerY" secondItem="Nlb-EK-2pI" secondAttribute="centerY" id="fbY-1m-BFG"/>
+                                    <constraint firstItem="Dtf-pq-uH7" firstAttribute="centerX" secondItem="Nlb-EK-2pI" secondAttribute="centerX" id="hAh-7k-C4F"/>
+                                    <constraint firstAttribute="width" constant="230" id="vsu-uW-umf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="outlineColor">
+                                        <color key="value" red="0.13333333333333333" green="0.43137254901960786" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="counterColor">
+                                        <color key="value" red="0.3411764706" green="0.85490196080000003" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="T9d-G8-0bA" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="100" id="ElH-LI-bVI"/>
                             <constraint firstItem="T9d-G8-0bA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Lmp-XA-Yml"/>
+                            <constraint firstItem="Nlb-EK-2pI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YVT-ei-r1v"/>
+                            <constraint firstItem="T9d-G8-0bA" firstAttribute="top" secondItem="Nlb-EK-2pI" secondAttribute="bottom" constant="40" id="Z14-B8-sLg"/>
                             <constraint firstItem="PRP-7e-hUx" firstAttribute="top" secondItem="T9d-G8-0bA" secondAttribute="bottom" constant="20" id="mjh-kR-W67"/>
                             <constraint firstItem="PRP-7e-hUx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qiK-Uc-Ynv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="counterLabel" destination="Dtf-pq-uH7" id="uqG-Ur-Wod"/>
+                        <outlet property="counterView" destination="Nlb-EK-2pI" id="JTD-WL-Gni"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
