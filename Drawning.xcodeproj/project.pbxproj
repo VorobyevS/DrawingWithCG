@@ -13,6 +13,7 @@
 		AB65321A2165DFB7005E59A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6532192165DFB7005E59A7 /* Assets.xcassets */; };
 		AB65321D2165DFB8005E59A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB65321B2165DFB8005E59A7 /* LaunchScreen.storyboard */; };
 		AB6532252165E037005E59A7 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6532242165E037005E59A7 /* PushButton.swift */; };
+		AB85E9CD2167E06F001218D6 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB85E9CC2167E06F001218D6 /* GraphView.swift */; };
 		ABD81F1F216685F1007DD59E /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD81F1E216685F1007DD59E /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		AB65321C2165DFB8005E59A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB65321E2165DFB8005E59A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB6532242165E037005E59A7 /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		AB85E9CC2167E06F001218D6 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		ABD81F1E216685F1007DD59E /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				AB65321E2165DFB8005E59A7 /* Info.plist */,
 				AB6532242165E037005E59A7 /* PushButton.swift */,
 				ABD81F1E216685F1007DD59E /* CounterView.swift */,
+				AB85E9CC2167E06F001218D6 /* GraphView.swift */,
 			);
 			path = Drawning;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB85E9CD2167E06F001218D6 /* GraphView.swift in Sources */,
 				AB6532152165DFB7005E59A7 /* ViewController.swift in Sources */,
 				AB6532132165DFB7005E59A7 /* AppDelegate.swift in Sources */,
 				AB6532252165E037005E59A7 /* PushButton.swift in Sources */,
