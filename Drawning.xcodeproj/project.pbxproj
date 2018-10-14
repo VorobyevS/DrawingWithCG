@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB633AAC2173C319009DC4BE /* MedalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB633AAB2173C319009DC4BE /* MedalView.swift */; };
 		AB6532132165DFB7005E59A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6532122165DFB7005E59A7 /* AppDelegate.swift */; };
 		AB6532152165DFB7005E59A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6532142165DFB7005E59A7 /* ViewController.swift */; };
 		AB6532182165DFB7005E59A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6532162165DFB7005E59A7 /* Main.storyboard */; };
@@ -14,10 +15,12 @@
 		AB65321D2165DFB8005E59A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB65321B2165DFB8005E59A7 /* LaunchScreen.storyboard */; };
 		AB6532252165E037005E59A7 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6532242165E037005E59A7 /* PushButton.swift */; };
 		AB85E9CD2167E06F001218D6 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB85E9CC2167E06F001218D6 /* GraphView.swift */; };
+		ABCB91E321722C8C005CA658 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCB91E221722C8C005CA658 /* BackgroundView.swift */; };
 		ABD81F1F216685F1007DD59E /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD81F1E216685F1007DD59E /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB633AAB2173C319009DC4BE /* MedalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedalView.swift; sourceTree = "<group>"; };
 		AB65320F2165DFB7005E59A7 /* Drawning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6532122165DFB7005E59A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB6532142165DFB7005E59A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		AB65321E2165DFB8005E59A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB6532242165E037005E59A7 /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
 		AB85E9CC2167E06F001218D6 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		ABCB91E221722C8C005CA658 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		ABD81F1E216685F1007DD59E /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +73,8 @@
 				AB6532242165E037005E59A7 /* PushButton.swift */,
 				ABD81F1E216685F1007DD59E /* CounterView.swift */,
 				AB85E9CC2167E06F001218D6 /* GraphView.swift */,
+				ABCB91E221722C8C005CA658 /* BackgroundView.swift */,
+				AB633AAB2173C319009DC4BE /* MedalView.swift */,
 			);
 			path = Drawning;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCB91E321722C8C005CA658 /* BackgroundView.swift in Sources */,
 				AB85E9CD2167E06F001218D6 /* GraphView.swift in Sources */,
+				AB633AAC2173C319009DC4BE /* MedalView.swift in Sources */,
 				AB6532152165DFB7005E59A7 /* ViewController.swift in Sources */,
 				AB6532132165DFB7005E59A7 /* AppDelegate.swift in Sources */,
 				AB6532252165E037005E59A7 /* PushButton.swift in Sources */,
